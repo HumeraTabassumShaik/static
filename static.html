@@ -1,0 +1,59 @@
+<!-- File: index.html -->
+"image": "https://USERNAME.github.io/social-post-static-site/preview.png",
+"mainEntityOfPage": "https://USERNAME.github.io/social-post-static-site/"
+}
+</script>
+
+
+<!-- Minimal inline CSS for demo -->
+<style>
+:root{--bg:#f7f7fb;--card:#fff;--muted:#6b7280}
+body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);margin:0;padding:24px}
+.container{max-width:720px;margin:0 auto}
+.card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+.post-head{display:flex;gap:12px;align-items:center}
+.avatar{width:56px;height:56px;border-radius:50%;background:#ddd}
+.meta{display:flex;flex-direction:column}
+.name{font-weight:600}
+.time{color:var(--muted);font-size:13px}
+.post-body{margin-top:12px;line-height:1.6}
+.post-media{margin-top:12px;border-radius:8px;overflow:hidden}
+.post-actions{display:flex;gap:12px;margin-top:14px;color:var(--muted)}
+a.button{display:inline-block;padding:8px 12px;border-radius:8px;text-decoration:none;border:1px solid #e6e9ef}
+</style>
+</head>
+<body>
+<main class="container">
+<article class="card" itemscope itemtype="https://schema.org/SocialMediaPosting">
+<header class="post-head">
+<div class="avatar" aria-hidden></div>
+<div class="meta">
+<div class="name" itemprop="author">Shaik Humera Tabassum</div>
+<div class="time" itemprop="datePublished">Oct 16, 2025 · Public</div>
+</div>
+</header>
+
+
+<div class="post-body" itemprop="articleBody">
+<p>Just shipped a tiny static demo that mimics how a social post page looks. Static sites <em>FTW</em> — fast, simple, and SEO-friendly. 🚀</p>
+</div>
+
+
+<div class="post-media">
+<img src="preview.png" alt="Post preview image" style="width:100%;display:block">
+</div>
+
+
+<div class="post-actions">
+<span>👍 124</span>
+<span>💬 17</span>
+<a class="button" href="#share" rel="nofollow">Share</a>
+</div>
+
+
+<!-- Hidden meta for crawlers: canonical & author -->
+<link itemprop="mainEntityOfPage" href="https://USERNAME.github.io/social-post-static-site/">
+</article>
+</main>
+</body>
+</html>
