@@ -1,0 +1,4 @@
+# Allow all crawlers to index the site and reference sitemap
+User-agent: *
+Allow: /
+Sitemap: https://USERNAME.github.io/social-post-static-site/sitemap.xml
